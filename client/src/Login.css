@@ -1,0 +1,229 @@
+/* body { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5; 
+	min-height: 100vh; 
+	background: #f3f3f3; 
+	flex-direction: column; 
+	margin: 0; 
+} 
+
+.main { 
+	background-color: #fff; 
+	border-radius: 15px; 
+	box-shadow: 0 0 15px #f3b2a6; 
+	padding: 30px 50px; 
+	transition: transform 0.2s; 
+	width: 500px; 
+	text-align: center; 
+} 
+
+h1 { 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  font-weight:400;
+  border-radius: 10px;
+  color: white; 
+  background-color: #f3b2a6;
+  margin-bottom: 40px;
+} 
+
+h3{
+  font-size:x-large;
+  color: #fec2ca;
+}
+
+
+label { 
+	display: block; 
+	width: 100%; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	text-align: left; 
+	color: #555; 
+	font-weight: bold; 
+} 
+
+
+input { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
+button { 
+	padding: 15px; 
+	border-radius: 10px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	background-color: #f7b5c1; 
+	width: 70%; 
+	font-size: 25px; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:900;
+} 
+
+.wrap{ 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+  
+}
+.wrap1{ 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+  
+}
+.wrap1 label {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #f3b2a6;
+    width: 70%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.wrap1 label input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); /* Increase the size of the checkbox */
+/* }
+
+.wrap1 input:checked ~ .checkmark {
+	background-color: #f7b5c1;
+  } */ 
+
+
+  body { 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5; 
+	min-height: 100vh; 
+	background: #f3f3f3; 
+	flex-direction: column; 
+	margin: 0; 
+} 
+
+.main { 
+	background-color: #fff; 
+	border-radius: 15px; 
+	box-shadow: 0 0 15px #f3b2a6; 
+	padding: 30px 50px; 
+	transition: transform 0.2s; 
+	max-width: 90%; /* Adjusted for responsiveness */
+	width: 500px; 
+	text-align: center; 
+} 
+
+h1 { 
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 10px;
+	font-weight: 400;
+	border-radius: 10px;
+	color: white; 
+	background-color: #f3b2a6;
+	margin-bottom: 40px;
+} 
+
+h3 {
+	font-size: x-large;
+	color: #fec2ca;
+}
+
+label { 
+	display: block; 
+	width: 100%; 
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+	text-align: left; 
+	color: #555; 
+	font-weight: bold; 
+} 
+
+input { 
+	display: block; 
+	width: 100%; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	border: 1px solid #ddd; 
+	border-radius: 5px; 
+} 
+
+button { 
+	padding: 15px; 
+	border-radius: 10px; 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	background-color: #f7b5c1; 
+	width: 70%; 
+	font-size: 25px; 
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 900;
+} 
+
+.wrap { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+
+.wrap1 { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+
+.wrap1 label {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: #f3b2a6;
+	width: 70%;
+	font-size: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
+}
+
+.wrap1 label input[type="checkbox"] {
+	margin-right: 10px;
+	transform: scale(1.5); 
+}
+
+.wrap1 input:checked ~ .checkmark {
+	background-color: #f7b5c1;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 90%;
+  }
+}
